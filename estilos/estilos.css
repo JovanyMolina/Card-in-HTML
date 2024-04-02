@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+*{
+    padding: 0;
+    margin: 0 ;
+    font-family: 'Sora', sans-serif;
+    background-color: #FAFAF9;
+}
+.card{
+    padding: 16px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:420px;
+    border: 1px solid rgb(224, 220, 220);
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border-radius:15px;
+    margin: 16% auto;
+}
+.img{
+    border-radius:10px;
+}
+.Etiqueta{
+    padding: 6px;
+    border-radius:15px;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    width: 15% ;
+    text-align: center;
+}
+.titulo{
+    color: #20293A;
+}
+.cuerpo{
+    color: #6C727F;
+    font-size: 16px;
+}
+.corte{
+    color: #dbdbdb;
+}
+.fin{
+    color: #6C727F;
+    font-size: 9px;
+    margin: revert;
+}
